@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SdnMySqlServer-Web.config Connection String" description="SdnMySqlServer Connection String used in web.config by the application to access the database." defaultValue="Data Source=localhost;uid=root;password=verizon123;database=sdn;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\Sheik\\visual\ studio\ 2015\\Projects\\SDNPortal\\SDNPortal\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SdnMySqlServer']/@connectionString" />
+  </parameter>
+  <parameter name="LocalMySqlServer-Web.config Connection String" description="LocalMySqlServer Connection String used in web.config by the application to access the database." defaultValue="Data Source=localhost;uid=root;password=verizon123;database=users;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\Sheik\\visual\ studio\ 2015\\Projects\\SDNPortal\\SDNPortal\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LocalMySqlServer']/@connectionString" />
+  </parameter>
+</parameters>
